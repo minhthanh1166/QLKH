@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qlkh:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>qlkh</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="qlkh-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="qlkh:war exploded" />
+    </root>
+  </artifact>
+</component>
